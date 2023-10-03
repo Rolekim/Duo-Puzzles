@@ -118,6 +118,7 @@ public class ChangeController : MonoBehaviour
             {
                 characSelected.ChangeToIddle();
             }
+
         }
 
     }

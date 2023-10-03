@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1279087091
 RectTransform:
   m_ObjectHideFlags: 0
@@ -550,14 +550,69 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stamina
       objectReference: {fileID: 0}
-    - target: {fileID: 3337790244141473719, guid: 329a11fc6c842254296c95ea9c961067,
+    - target: {fileID: 2030829573803469006, guid: 329a11fc6c842254296c95ea9c961067,
         type: 3}
-      propertyPath: m_AnchorMax.x
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3337790243341937092, guid: 329a11fc6c842254296c95ea9c961067,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3337790243526972145, guid: 329a11fc6c842254296c95ea9c961067,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3337790243526972146, guid: 329a11fc6c842254296c95ea9c961067,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 432
+      objectReference: {fileID: 0}
+    - target: {fileID: 3337790243526972147, guid: 329a11fc6c842254296c95ea9c961067,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3337790243528820337, guid: 329a11fc6c842254296c95ea9c961067,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3337790243528820351, guid: 329a11fc6c842254296c95ea9c961067,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3337790243810273341, guid: 329a11fc6c842254296c95ea9c961067,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3337790244141473704, guid: 329a11fc6c842254296c95ea9c961067,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3337790244141473718, guid: 329a11fc6c842254296c95ea9c961067,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3337790244141473719, guid: 329a11fc6c842254296c95ea9c961067,
         type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3337790244141473719, guid: 329a11fc6c842254296c95ea9c961067,
+        type: 3}
       propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3337790244295790383, guid: 329a11fc6c842254296c95ea9c961067,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7550759683920141642, guid: 329a11fc6c842254296c95ea9c961067,
@@ -589,6 +644,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 2764598980344375650, guid: b97681c272e85a64ca58148002d98d47,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2764598980344375653, guid: b97681c272e85a64ca58148002d98d47,
         type: 3}

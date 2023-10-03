@@ -9726,35 +9726,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 465036980483838273, guid: cba98cbdb0e8a0142a6632dd23ca7ad1,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 465036980483838273, guid: cba98cbdb0e8a0142a6632dd23ca7ad1,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4679167224684096851, guid: cba98cbdb0e8a0142a6632dd23ca7ad1,
         type: 3}
       propertyPath: m_Name
       value: Canvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 4679167224684096853, guid: cba98cbdb0e8a0142a6632dd23ca7ad1,
-        type: 3}
-      propertyPath: m_UiScaleMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4679167224684096853, guid: cba98cbdb0e8a0142a6632dd23ca7ad1,
-        type: 3}
-      propertyPath: m_ReferenceResolution.x
-      value: 750
-      objectReference: {fileID: 0}
-    - target: {fileID: 4679167224684096853, guid: cba98cbdb0e8a0142a6632dd23ca7ad1,
-        type: 3}
-      propertyPath: m_ReferenceResolution.y
-      value: 360
       objectReference: {fileID: 0}
     - target: {fileID: 4679167224684096854, guid: cba98cbdb0e8a0142a6632dd23ca7ad1,
         type: 3}
