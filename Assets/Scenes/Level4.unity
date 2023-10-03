@@ -562,7 +562,7 @@ PrefabInstance:
     - target: {fileID: 2764598980344375653, guid: b97681c272e85a64ca58148002d98d47,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 2764598980344375653, guid: b97681c272e85a64ca58148002d98d47,
         type: 3}
@@ -4588,10 +4588,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 750, y: 360}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -4778,11 +4778,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 581173935}
     m_Modifications:
-    - target: {fileID: 6150558962804831937, guid: 483af6b55db5e6042a11d466e3cd7be4,
-        type: 3}
-      propertyPath: staminaCost
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 6150558962804831942, guid: 483af6b55db5e6042a11d466e3cd7be4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4892,11 +4887,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: EndLevel 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6150558963207724037, guid: 483af6b55db5e6042a11d466e3cd7be4,
-        type: 3}
-      propertyPath: m_text
-      value: 2 STAMINA
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 483af6b55db5e6042a11d466e3cd7be4, type: 3}
@@ -5046,7 +5036,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 705, y: 8}
+  m_AnchoredPosition: {x: 493, y: 113}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &803313972
@@ -5147,7 +5137,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -58, y: 8}
+  m_AnchoredPosition: {x: -276, y: 113}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &948432319
@@ -9532,14 +9522,14 @@ RectTransform:
   m_GameObject: {fileID: 1551884757}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8484135, y: 0.8484135, z: 0.8484135}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 724178949}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1189.2144, y: -533.21045}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -92, y: 31}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1551884759
@@ -9563,7 +9553,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Sometimes the Red and Blue worlds are different...
 
-    Use that to reach the portal'
+    Double tap the
+    screen to change worlds.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0e0733d9d50ba564e82efdbc99eee5aa, type: 2}
   m_sharedMaterial: {fileID: -7681528102860654790, guid: 0e0733d9d50ba564e82efdbc99eee5aa,
@@ -9592,8 +9583,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -9630,15 +9621,15 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -888.1558, y: -358.60364, z: 95.18261, w: -121.35209}
+  m_margin: {x: -171.4821, y: -25.91357, z: -26.773489, w: -121.35209}
   m_textInfo:
     textComponent: {fileID: 1551884759}
-    characterCount: 79
+    characterCount: 90
     spriteCount: 0
-    spaceCount: 13
-    wordCount: 14
+    spaceCount: 14
+    wordCount: 15
     linkCount: 0
-    lineCount: 5
+    lineCount: 4
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -9990,71 +9981,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1279087092, guid: cba98cbdb0e8a0142a6632dd23ca7ad1, type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1279087092, guid: cba98cbdb0e8a0142a6632dd23ca7ad1, type: 3}
-      propertyPath: m_textInfo.spaceCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1279087092, guid: cba98cbdb0e8a0142a6632dd23ca7ad1, type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1279087092, guid: cba98cbdb0e8a0142a6632dd23ca7ad1, type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1279087092, guid: cba98cbdb0e8a0142a6632dd23ca7ad1, type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 465036979135899440, guid: cba98cbdb0e8a0142a6632dd23ca7ad1,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 465036979135899440, guid: cba98cbdb0e8a0142a6632dd23ca7ad1,
-        type: 3}
-      propertyPath: m_textInfo.spaceCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 465036979135899440, guid: cba98cbdb0e8a0142a6632dd23ca7ad1,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 465036979135899440, guid: cba98cbdb0e8a0142a6632dd23ca7ad1,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 465036979135899440, guid: cba98cbdb0e8a0142a6632dd23ca7ad1,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 465036980128448983, guid: cba98cbdb0e8a0142a6632dd23ca7ad1,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 465036980128448983, guid: cba98cbdb0e8a0142a6632dd23ca7ad1,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 465036980128448983, guid: cba98cbdb0e8a0142a6632dd23ca7ad1,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 465036980128448983, guid: cba98cbdb0e8a0142a6632dd23ca7ad1,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 465036980483838273, guid: cba98cbdb0e8a0142a6632dd23ca7ad1,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -10178,31 +10104,6 @@ PrefabInstance:
     - target: {fileID: 4679167224684096855, guid: cba98cbdb0e8a0142a6632dd23ca7ad1,
         type: 3}
       propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4679167224914472346, guid: cba98cbdb0e8a0142a6632dd23ca7ad1,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4679167224914472346, guid: cba98cbdb0e8a0142a6632dd23ca7ad1,
-        type: 3}
-      propertyPath: m_textInfo.spaceCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4679167224914472346, guid: cba98cbdb0e8a0142a6632dd23ca7ad1,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4679167224914472346, guid: cba98cbdb0e8a0142a6632dd23ca7ad1,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4679167224914472346, guid: cba98cbdb0e8a0142a6632dd23ca7ad1,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

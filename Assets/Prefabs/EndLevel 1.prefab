@@ -177,7 +177,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6150558962340186950
 RectTransform:
   m_ObjectHideFlags: 0
@@ -340,7 +340,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44bd25a5d4e7ae7488e5ae2d1b3f8582, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  staminaCost: 2
+  staminaCost: 1
 --- !u!1 &6150558962831795988
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,7 +359,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6150558962831795991
 RectTransform:
   m_ObjectHideFlags: 0
@@ -645,7 +645,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6150558963207724042
 RectTransform:
   m_ObjectHideFlags: 0
@@ -692,7 +692,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 2 STAMINA
+  m_text: 1 STAMINA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0e0733d9d50ba564e82efdbc99eee5aa, type: 2}
   m_sharedMaterial: {fileID: -7681528102860654790, guid: 0e0733d9d50ba564e82efdbc99eee5aa,

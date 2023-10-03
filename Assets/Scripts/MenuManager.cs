@@ -50,8 +50,9 @@ public class MenuManager : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1") && isInTitle)
         {
-            anim.SetTrigger("OpenWalls");
-            StartCoroutine(ShowSelectLevel());
+            //anim.SetTrigger("OpenWalls");
+            //StartCoroutine(ShowSelectLevel());
+            ChangeToLevel1();
         }
         CheckLevels();
         RefreshStamina();
@@ -151,9 +152,16 @@ public class MenuManager : MonoBehaviour
     {
         if(staminaCost < GameManager.gameManager.ReturnStamina())
         {
-            CalculateStamina(staminaCost);
+            /*CalculateStamina(staminaCost);
             yield return new WaitForSeconds(0.4f);
             anim.SetTrigger("CloseWalls");
+
+            yield return new WaitForSeconds(0.2f);
+            selectLevelScreen.SetActive(false);
+            yield return new WaitForSeconds(1.5f);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + level);*/
+            //yield return new WaitForSeconds(0.4f);
+            //anim.SetTrigger("CloseWalls");
 
             yield return new WaitForSeconds(0.2f);
             selectLevelScreen.SetActive(false);

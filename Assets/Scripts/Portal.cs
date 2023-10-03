@@ -32,6 +32,5 @@ public class Portal : MonoBehaviour
         wallsAnimator.SetTrigger("CloseWalls");
         yield return new WaitForSeconds(0.6f);
         EndLevel.SetActive(true);
-
     }
 }

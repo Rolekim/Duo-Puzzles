@@ -8,13 +8,28 @@ public class EndLevel : MonoBehaviour
     [SerializeField]
     int staminaCost;
 
+
+    public void Start()
+    {
+        NextLevel();
+    }
+
+
     public void NextLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if(SceneManager.GetActiveScene().buildIndex == 10)
+        {
+            SceneManager.LoadScene(0);
+        }
+        else
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+
         if(GameManager.gameManager != null)
         {
-            var stamina = GameManager.gameManager.ReturnStamina() - staminaCost;
-            GameManager.gameManager.ChangeStamina(stamina);
+            //var stamina = GameManager.gameManager.ReturnStamina() - staminaCost;
+            //GameManager.gameManager.ChangeStamina(stamina);
         }
 
     }
